@@ -3,9 +3,11 @@
 import 'package:flutter/material.dart';
 
 class Resultados extends StatelessWidget {
+
   final String textoTraido;
   final String textoTraido2;
   final int numero;
+
   const Resultados(this.textoTraido, this.textoTraido2, this.numero, {super.key});
 
   @override
@@ -23,12 +25,14 @@ class Resultados extends StatelessWidget {
 }
 
 Widget muestra(numeroP){
-
+numeroP = numeroP + 15;
+print(numeroP);
   if(numeroP == 5){
-
+  
     return const Text('Es un texto A');
   }else{
-    return const Text('Es un texto B');
+    return const Text('Es un texto B. Numero es igual.');
+    
   }
   
 

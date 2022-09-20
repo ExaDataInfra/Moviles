@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-
+   
     TextEditingController textoDelForm = TextEditingController(text: '');
     TextEditingController textoDelForm2 = TextEditingController(text: '');
     TextEditingController numero = TextEditingController(text: '' );
